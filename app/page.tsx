@@ -567,9 +567,12 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="bg-gray-700 hover:bg-gray-600 text-gray-200 font-semibold px-8 py-4 text-lg backdrop-blur-sm"
+                asChild
               >
-                <Star className="mr-2 h-5 w-5" />
-                View on GitHub
+                <Link href="https://github.com/mohanad8t/music-bot-website" target="_blank" rel="noopener noreferrer">
+                  <Star className="mr-2 h-5 w-5" />
+                  View on GitHub
+                </Link>
               </Button>
             </div>
           </motion.div>
