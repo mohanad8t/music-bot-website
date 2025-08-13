@@ -427,8 +427,8 @@ export default function CommandsPage() {
                       variant={selectedCategory === category.name ? "default" : "outline"}
                       onClick={() => setSelectedCategory(category.name)}
                       className={`text-sm ${selectedCategory === category.name
-                          ? "bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg"
-                          : "bg-gray-700 hover:bg-gray-600 text-gray-200 border-gray-600"
+                        ? "bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg"
+                        : "bg-gray-700 hover:bg-gray-600 text-gray-200 border-gray-600"
                         }`}
                     >
                       <category.icon className="h-4 w-4 mr-1 sm:mr-2" />
