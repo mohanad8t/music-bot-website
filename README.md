@@ -1,13 +1,17 @@
-# 🎵 GliderBot Music Website
+# 🎵 Discord Music Bot Website Template
 
-A modern, responsive website for GliderBot - The Ultimate Discord Music Bot. Built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, responsive website template for Discord music bots. Built with Next.js 14, TypeScript, and Tailwind CSS. This is a complete template that you can customize for your own Discord music bot.
 
-![GliderBot Preview](https://img.shields.io/badge/Status-Live-brightgreen)
+> **⚠️ Important Note:** This is a website template for Discord music bots. "GliderBot" is used as an example name throughout the template. All links are placeholder and need to be updated with your actual bot's information.
+
+![Template Preview](https://img.shields.io/badge/Status-Template-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-14.2.16-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.17-06B6D4)
 
 ## ✨ Features
+
+> **📝 Template Information:** This template includes placeholder content for "GliderBot" - replace all instances with your actual bot's name and information.
 
 ### 🎨 **Modern Design**
 - Sleek, dark-themed UI optimized for Discord users
@@ -32,6 +36,33 @@ A modern, responsive website for GliderBot - The Ultimate Discord Music Bot. Bui
 - **Home**: Hero section with animated stats and testimonials
 - **Commands**: Interactive command browser with search and filters
 - **Premium**: Pricing plans and feature comparisons
+
+## 🔧 Customization Guide
+
+### **Required Changes**
+Before deploying, you need to update:
+
+1. **Bot Information**
+   - Replace "GliderBot" with your bot's name
+   - Update bot avatar/logo images
+   - Change Discord OAuth URL with your bot's client ID
+
+2. **Links and URLs**
+   - Discord invite link
+   - Support server link
+   - Documentation URLs
+   - Social media links
+
+3. **Content**
+   - Bot commands and descriptions
+   - Pricing information (if applicable)
+   - Feature descriptions
+   - Testimonials (replace with real ones)
+
+4. **Branding**
+   - Colors and theme
+   - Logo and images
+   - Footer information
 
 ## 🛠️ Tech Stack
 
@@ -239,21 +270,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Live Website**: [Your Website URL]
-- **Discord Server**: [Support Server Invite]
-- **Documentation**: [Docs URL]
-- **Bot Invite**: [Discord OAuth URL]
+- **Template Demo**: [Live Demo URL]
+- **Documentation**: [Template Docs]
+- **Issues**: GitHub Issues for template bugs
+- **Discussions**: GitHub Discussions for template help
 
 ## 📞 Support
 
-- **Email**: support@gliderbot.com
-- **Discord**: Join our support server
-- **Issues**: GitHub Issues
-- **Discussions**: GitHub Discussions
+- **Template Issues**: GitHub Issues
+- **Template Help**: GitHub Discussions
+- **Template Updates**: Watch this repository
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ for Discord communities</p>
-  <p>© 2025 GliderBot. All rights reserved.</p>
+  <p>Discord Music Bot Website Template</p>
+  <p>© 2025 Template. Customize for your own bot.</p>
 </div>

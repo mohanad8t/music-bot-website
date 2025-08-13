@@ -275,24 +275,24 @@ export default function HomePage() {
           <div className="text-center max-w-5xl mx-auto">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <div className="flex flex-col items-center space-y-3 mb-6">
-                <Badge className="bg-green-600/20 text-green-300 border-green-500/50 px-4 py-2 text-sm">
-                  🎵 Trusted by 100,000+ Discord servers
+                <Badge className="bg-blue-600/20 text-blue-300 border-blue-500/50 px-4 py-2 text-sm">
+                  � Discord Music Bot Website Template
                 </Badge>
                 <Badge className="bg-red-600/20 text-red-300 border-red-500/50 px-4 py-2 text-sm">
-                  Dear resident this is without links because the people who will use this will customize it as they want this is just a demo for display only
+                  ⚠️ This is a template - All links are placeholders. Customize for your bot!
                 </Badge>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Premium Music for
+                Music Bot Website
                 <span className="bg-gradient-to-r from-green-400 to-green-500 bg-clip-text text-transparent block mt-2">
-                  Your Discord Server
+                  Template for Discord
                 </span>
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
-                GliderBot delivers crystal-clear music streaming with advanced controls, queue management, and support
-                for all major platforms. Transform your Discord server into the ultimate music experience.
+                A complete website template for Discord music bots. Includes responsive design, interactive features, 
+                and everything you need to showcase your bot. Customize the content, colors, and branding for your own bot.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -550,19 +550,21 @@ export default function HomePage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">Ready to Upgrade Your Music?</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">Ready to Use This Template?</h2>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Join over 100,000 Discord servers already enjoying premium music with GliderBot. Setup takes less than 30
-              seconds!
+              Get started with this professional Discord music bot website template. Customize it for your own bot and deploy in minutes!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold px-8 py-4 text-lg shadow-xl transform hover:scale-105 transition-all duration-200"
+                asChild
               >
-                <Bot className="mr-2 h-5 w-5" />
-                Add GliderBot Now
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <Link href="https://github.com/mohanad8t/music-bot-website" target="_blank" rel="noopener noreferrer">
+                  <Bot className="mr-2 h-5 w-5" />
+                  Get Template
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </Button>
               <Button
                 size="lg"
@@ -611,7 +613,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; 2025 GliderBot. All rights reserved. Made with ❤️ for Discord communities.</p>
+            <p>&copy; 2025 Discord Music Bot Website Template. Customize for your own bot.</p>
           </div>
         </div>
       </footer>
