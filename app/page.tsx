@@ -279,7 +279,7 @@ export default function HomePage() {
                   🎵 Trusted by 100,000+ Discord servers
                 </Badge>
                 <Badge className="bg-red-600/20 text-red-300 border-red-500/50 px-4 py-2 text-sm">
-                  The links do not work because this is a demo version only. You can edit this in your own.
+                  Dear resident this is without links because the people who will use this will customize it as they want this is just a demo for display only
                 </Badge>
               </div>
 
