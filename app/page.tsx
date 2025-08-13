@@ -291,7 +291,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
-                A complete website template for Discord music bots. Includes responsive design, interactive features, 
+                A complete website template for Discord music bots. Includes responsive design, interactive features,
                 and everything you need to showcase your bot. Customize the content, colors, and branding for your own bot.
               </p>
 
