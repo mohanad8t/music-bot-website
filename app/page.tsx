@@ -274,9 +274,14 @@ export default function HomePage() {
         <div className="container mx-auto">
           <div className="text-center max-w-5xl mx-auto">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-              <Badge className="mb-6 bg-green-600/20 text-green-300 border-green-500/50 px-4 py-2 text-sm">
-                🎵 Trusted by 100,000+ Discord servers
-              </Badge>
+              <div className="flex flex-col items-center space-y-3 mb-6">
+                <Badge className="bg-green-600/20 text-green-300 border-green-500/50 px-4 py-2 text-sm">
+                  🎵 Trusted by 100,000+ Discord servers
+                </Badge>
+                <Badge className="bg-red-600/20 text-red-300 border-red-500/50 px-4 py-2 text-sm">
+                  The links do not work because this is a demo version only. You can edit this in your own.
+                </Badge>
+              </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
                 Premium Music for
